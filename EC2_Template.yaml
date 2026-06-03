@@ -4,7 +4,7 @@ Description: 'CloudFormation template to spin up a single EC2 instance with a se
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
-    Type: AWS::EC2::KeyPair::Chanakya-EC2
+    Type: AWS::EC2::KeyPair
     ConstraintDescription: Must be the name of an existing EC2 KeyPair.
 
   InstanceType:
